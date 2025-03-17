@@ -1,17 +1,11 @@
 import React from 'react'
+import "../index.css"
 
 export default function Header(){
   return (
-    <header>
-      <h2>logo</h2>
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul>
-      <div>
-        he wil be time!
-      </div>
+    <header className='header-first'>
+      <h1>My bloge</h1>
+      <p>карапайым жане толгампаз оку тажырбиесы</p>
     </header>
   )
 }

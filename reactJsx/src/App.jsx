@@ -1,22 +1,15 @@
 import React from 'react'
 import './App.css'
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import StateClasswork from './components/ToDoList'
+// import Class27w2day from './components/Class27w2day'
+// import Class27w3day from './components/Class27w4day'
+import ToDoList from './components/ToDoList'
+import AralikBak8 from './components/AralikBak8'
 
 export default function App() {
-  const handleChange = (event) => {
-    console.log(event.target.value.toUpperCase());
-  };
-
-  const handleKeyDown = (event) => {
-    if (event.key == "Enter") {
-      console.log("Submitted!");
-    }
-  };
-
   return (
     <>
-      <input type="text" onChange={handleChange} onKeyDown={handleKeyDown} placeholder='bir narse jaz'/>
+      <AralikBak8/>
     </>
   )
 }
