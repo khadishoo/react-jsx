@@ -1,0 +1,20 @@
+// import Login from './pages/Login'
+// import Home from './pages/Home'
+// import AuthContext from './components/AuthProvider'
+
+// let [isAuthenticated, setIsAuthenticated] = useState(()=>{
+//   return JSON.parse(localStorage.getItem('user')) ? true : false
+// })
+
+//   <AuthContext.Provider value={{setIsAuthenticated, isAuthenticated}}>
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={
+//           <Login/>
+//         }/>
+//         <Route path='/home' element={
+//           <Home/>
+//         }/>
+//       </Routes>
+//     </BrowserRouter>
+//   </AuthContext.Provider>

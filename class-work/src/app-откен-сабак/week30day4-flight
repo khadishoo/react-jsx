@@ -1,0 +1,12 @@
+// import FlightBooking from './pages/week30day4/FlightBooking'
+// import FlightList from './pages/week30day4/FlightList'
+// import { FlightProvider } from './components/week30day4/FlightContext'
+
+// <FlightProvider>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path='/' element={<FlightList />} />
+//           <Route path='/booking/:flightId' element={<FlightBooking />} />
+//         </Routes>
+//       </BrowserRouter>
+//     </FlightProvider>

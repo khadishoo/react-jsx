@@ -32,6 +32,23 @@ button:hover {
   background-color: #0056b3;
 }
 
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(185, 140, 215);
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+
 input, textarea, select {
   width: 100%;
   padding: 10px;

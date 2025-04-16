@@ -3,3 +3,13 @@
 @import url('./style/Footer.css');
 @import url('./style/Header.css');
 @import url('./style/Navigation.css'); */
+
+.light{
+    background-color: #fff;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: #fff;
+}
